@@ -69,6 +69,7 @@ oc get pod -owide | grep vote-app.*Running
 ```
 
 Select one of the pod's IP addresses and run this command to cause the application to fail:
+
 NOTICE: This will not work on server. So we need to call with route.
 
 ```
